@@ -6,15 +6,15 @@
     nestjs-storage is manage file Storage wrapping package flydrive
 </p>
 <p align="center">
-    <a href="https://www.npmjs.com/org/codebrew"><img src="https://img.shields.io/npm/v/@codebrew/nestjs-storage.svg" alt="NPM Version" /></a>
-    <a href="https://www.npmjs.com/org/codebrew"><img src="https://img.shields.io/npm/l/@codebrew/nestjs-storage.svg" alt="Package License" /></a>
-    <a href="https://www.npmjs.com/org/codebrew"><img src="https://img.shields.io/npm/dm/@codebrew/nestjs-storage.svg" alt="NPM Downloads" /></a>
+    <a href="https://www.npmjs.com/org/maxgaurav/nestjs-storage"><img src="https://img.shields.io/npm/v/@maxgaurav/nestjs-storage.svg" alt="NPM Version" /></a>
+    <a href="https://www.npmjs.com/org/maxgaurav/nestjs-storage"><img src="https://img.shields.io/npm/l/@maxgaurav/nestjs-storage.svg" alt="Package License" /></a>
+    <a href="https://www.npmjs.com/org/maxgaurav/nestjs-storage"><img src="https://img.shields.io/npm/dm/@maxgaurav/nestjs-storage.svg" alt="NPM Downloads" /></a>
 </p>
 
 ## Installation
 
 ```bash
-$ npm i --save @codebrew/nestjs-storage @slynova/flydrive
+$ npm i --save @maxgaurav/nestjs-storage @slynova/flydrive
 
 # optional with s3 driver
 $ npm i --save @slynova/flydrive-s3
@@ -28,7 +28,7 @@ $ npm i --save @slynova/flydrive-gcs
 ```typescript
 // app.module.ts
 import { Module } from '@nestjs/common'
-import { StorageModule, DriverType, StorageService } from '@codebrew/nestjs-storage';
+import { StorageModule, DriverType, StorageService } from '@maxgaurav/nestjs-storage';
 
 @Module({
   imports: [
