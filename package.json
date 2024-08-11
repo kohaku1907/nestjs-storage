@@ -1,6 +1,6 @@
 {
   "name": "@kshiro/nestjs-storage",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Nestjs file system wrapping flydrive",
   "author": "Kohaku",
   "license": "MIT",
