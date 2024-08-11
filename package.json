@@ -1,10 +1,10 @@
 {
-  "name": "@maxgaurav/nestjs-storage",
+  "name": "@kshiro/nestjs-storage",
   "version": "1.0.0",
   "description": "Nestjs file system wrapping flydrive",
-  "author": "Gaurav Gangopadhyay",
+  "author": "Kohaku",
   "license": "MIT",
-  "url": "https://github.com/maxgaurav/nestjs-storage",
+  "url": "https://github.com/kohaku1907/nestjs-storage",
   "scripts": {
     "jest": "jest",
     "build": "rimraf -rf dist && tsc -p ./tsconfig.lib.json",
@@ -17,7 +17,6 @@
     "prerelease": "npm run build",
     "release": "release-it"
   },
-  "dependencies": {},
   "devDependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
@@ -57,9 +56,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxgaurav/nestjs-storage"
+    "url": "git+https://github.com/kohaku1907/nestjs-storage.git"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/kohaku1907/nestjs-storage/issues"
+  },
+  "homepage": "https://github.com/kohaku1907/nestjs-storage#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
   }
 }
